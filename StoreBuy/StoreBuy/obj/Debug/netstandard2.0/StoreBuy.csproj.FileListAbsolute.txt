@@ -1,0 +1,121 @@
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\bin\Debug\netstandard2.0\StoreBuy.deps.json
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\bin\Debug\netstandard2.0\StoreBuy.dll
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\bin\Debug\netstandard2.0\ref\StoreBuy.dll
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\bin\Debug\netstandard2.0\StoreBuy.pdb
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.Resources.resources
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.csproj.GenerateResource.cache
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Themes\LightTheme.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\EmailEntry.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\LoginPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\Styles.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Success.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Unsucess.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.AssemblyInfoInputs.cache
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.AssemblyInfo.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.dll
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\ref\StoreBuy.dll
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.pdb
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\ForgotPasswordPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\ResetPasswordPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\SignUpPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\OTPVerificationPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\EmailVerificationPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\PasswordEntry.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\PhoneEntry.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Catalog\CategoryTilePage.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Catalog\Styles.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Catalog\CatalogListPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Templates\ProductListTemplate.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Templates\Styles.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\bin\Debug\netstandard2.0\StoreBuy.deps.json
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\bin\Debug\netstandard2.0\StoreBuy.dll
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\bin\Debug\netstandard2.0\ref\StoreBuy.dll
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\bin\Debug\netstandard2.0\StoreBuy.pdb
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.csprojAssemblyReference.cache
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.Resources.resources
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.csproj.GenerateResource.cache
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Themes\LightTheme.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Catalog\CatalogListPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Catalog\CategoryTilePage.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Catalog\Styles.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\EmailEntry.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\EmailVerificationPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\FirstNameEntry.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\ForgotPasswordPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\LastNameEntry.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\LoginPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\OTPVerificationPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\PasswordEntry.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\PhoneEntry.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\ResetPasswordPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\SignUpPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\Styles.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Success.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Templates\ProductListTemplate.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Templates\Styles.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Unsucess.xaml.g.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.csproj.CoreCompileInputs.cache
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.AssemblyInfoInputs.cache
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.AssemblyInfo.cs
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.dll
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\ref\StoreBuy.dll
+C:\Users\CS185304\Downloads\Test\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.pdb
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.csprojAssemblyReference.cache
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Catalog\SearchItemsListPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Bookmarks\CartPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Bookmarks\PriceDetailView.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Bookmarks\Styles.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Templates\CartItemListTemplate.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\ErrorandEmpty\EmptyCartPage.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\ErrorandEmpty\Styles.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.csproj.CoreCompileInputs.cache
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\FirstNameEntry.xaml.g.cs
+C:\Users\CS185304\Downloads\Projects2019\Xamarin\StoreBuy\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\LastNameEntry.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\bin\Debug\netstandard2.0\StoreBuy.deps.json
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\bin\Debug\netstandard2.0\StoreBuy.dll
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\bin\Debug\netstandard2.0\ref\StoreBuy.dll
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\bin\Debug\netstandard2.0\StoreBuy.pdb
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.Resources.resources
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.csproj.GenerateResource.cache
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Themes\LightTheme.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Bookmarks\CartPage.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Bookmarks\PriceDetailView.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Bookmarks\Styles.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Catalog\CatalogListPage.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Catalog\CategoryTilePage.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Catalog\SearchItemsListPage.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Catalog\Styles.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\ErrorandEmpty\EmptyCartPage.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\ErrorandEmpty\Styles.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\EmailEntry.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\EmailVerificationPage.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\FirstNameEntry.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\ForgotPasswordPage.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\LastNameEntry.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\LoginPage.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\OTPVerificationPage.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\PasswordEntry.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\PhoneEntry.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\ResetPasswordPage.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\SignUpPage.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Forms\Styles.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Success.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Templates\CartItemListTemplate.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Templates\ProductListTemplate.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Templates\Styles.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\Views\Unsucess.xaml.g.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.csproj.CoreCompileInputs.cache
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.AssemblyInfoInputs.cache
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.AssemblyInfo.cs
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.dll
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\ref\StoreBuy.dll
+C:\Users\CB185249\OneDrive - NCR Corporation\Desktop\frontend\Xamarin\StoreBuy\StoreBuy\obj\Debug\netstandard2.0\StoreBuy.pdb

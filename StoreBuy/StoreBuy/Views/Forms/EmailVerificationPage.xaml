@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="StoreBuy.Views.Forms.EmailVerificationPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:control="clr-namespace:StoreBuy.Controls"
+             xmlns:converter="clr-namespace:StoreBuy.Converters"
+             xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
+             xmlns:gradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+             xmlns:viewModel="clr-namespace:StoreBuy.ViewModels.Forms"
+             Title="OTP Verification"
+             BackgroundImageSource="{core:OnPlatformOrientationStringValue Default=download.png,
+                                                                  iOSPhoneLandscape=LoginBackground-Landscape.png,
+                                                                  iOSTabletLandscape=LoginBackground-Landscape.png}"
+             NavigationPage.HasNavigationBar="False"
+             Style="{StaticResource ContentPageStyle}">
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <converter:BooleanToColorConverter x:Key="ColorConverter" />
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Styles.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+
+  <ContentPage.Content>
+    <Grid>
+      <gradient:SfGradientView Style="{StaticResource SfGradientViewStyle}" />
+
+      <ScrollView HorizontalOptions="Center">
+        <ScrollView.VerticalOptions>
+          <OnIdiom x:TypeArguments="LayoutOptions"
+                   Default="CenterAndExpand"
+                   Phone="FillAndExpand" />
+        </ScrollView.VerticalOptions>
+
+        <StackLayout Margin="{core:OnPlatformOrientationThickness PhonePortrait='20,32',
+                                                                 PhoneLandscape='150,32',
+                                                                 TabletPortrait='200,50',
+                                                                 TabletLandscape='300,50',
+                                                                 Desktop='30'}"
+                     Spacing="0"
+                     VerticalOptions="FillAndExpand"
+                     WidthRequest="{OnPlatform Default='-1',
+                                              UWP='350'}">
+
+          <Grid RowSpacing="24"
+                VerticalOptions="CenterAndExpand">
+
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!--  Label to display the title of this page  -->
+            <Label Grid.Row="0"
+                   FontFamily="{StaticResource Montserrat-SemiBold}"
+                   FontSize="20"
+                   HorizontalOptions="Center"
+                   Style="{StaticResource LabelStyle}"
+                   Text="Email Verification"
+                   VerticalOptions="Center" />
+
+            <!--  Label to display the description of this page  -->
+            <Label Grid.Row="1"
+                   Margin="0,-8,0,8"
+                   FontFamily="{StaticResource Montserrat-Medium}"
+                   HorizontalTextAlignment="Center"
+                   Style="{StaticResource LabelStyle}"
+                   Text="Enter Verification Code sent  to your mail" />
+
+            <!--  Entry to get OTP from user  -->
+            <border:SfBorder Grid.Row="2"
+                             BorderColor="{Binding Source={x:Reference OTPEntry}, Path=IsFocused, Converter={StaticResource ColorConverter}, ConverterParameter=0}"
+                             Style="{StaticResource SfBorderStyle}">
+              <control:BorderlessEntry x:Name="OTPEntry"
+                                       IsPassword="True"
+                                       Placeholder="Verification Code"
+                                       Style="{StaticResource EntryStyle}"
+                                       Text="{Binding OTP}" />
+            </border:SfBorder>
+
+
+            <Label Grid.Row="3"
+                   Margin="0,-16,0,4"
+                   FontFamily="{StaticResource Montserrat-Medium}"
+                   HorizontalTextAlignment="Center"
+                   Style="{StaticResource EntryStyle}"
+                   FontSize="13"
+                   FontAttributes="Bold"
+                   TextColor="Red"
+                   Text="{Binding MisMatchText}" />
+
+
+            <!--  Submit button  -->
+            <buttons:SfButton Grid.Row="4"
+                              Margin="0,-26,0,8"
+                              Command="{Binding SubmitCommand}"
+                              CornerRadius="20"
+                              Style="{StaticResource SfButtonStyle}"
+                              Text="SUBMIT" />
+
+          </Grid>
+
+          <StackLayout HorizontalOptions="Center"
+                       Orientation="Horizontal"
+                       Spacing="1"
+                       VerticalOptions="End">
+
+
+
+          </StackLayout>
+        </StackLayout>
+      </ScrollView>
+    </Grid>
+  </ContentPage.Content>
+</ContentPage>

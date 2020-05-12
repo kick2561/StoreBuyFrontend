@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="StoreBuy.Views.Forms.SignUpPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:control="clr-namespace:StoreBuy.Controls"
+    xmlns:converter="clr-namespace:StoreBuy.Converters"
+    xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
+    xmlns:gradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+    xmlns:local="clr-namespace:StoreBuy.Views.Forms"
+    xmlns:viewModel="clr-namespace:StoreBuy.ViewModels.Forms"
+    Title="Sign Up"
+    BackgroundImageSource="{core:OnPlatformOrientationStringValue Default=download.png,
+                                                                  iOSPhoneLandscape=LoginBackground-Landscape.png,
+                                                                  iOSTabletLandscape=LoginBackground-Landscape.png}"
+    NavigationPage.HasNavigationBar="False"
+    Style="{StaticResource ContentPageStyle}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+      <converter:StringToBooleanConverter x:Key="StringToBooleanConverter" />
+      <converter:ErrorValidationColorConverter x:Key="ErrorValidationColorConverter"
+                                               PageVariantParameter="0" />
+
+      <converter:BooleanToColorConverter x:Key="ColorConverter" />
+      <converter:PasswordStringToBooleanConverter x:Key="PasswordStringToBooleanConverter" />
+      <converter:PasswordErrorValidationColorConverter x:Key="PasswordErrorValidationColorConverter"                                             PageVariantParameter="0" />
+      <converter:PhoneStringToBooleanConverter x:Key="PhoneStringToBooleanConverter" />
+      <converter:PhoneErrorValidationColorConverter x:Key="PhoneErrorValidationColorConverter"
+                                                       PageVariantParameter="0" />
+
+      <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+ 
+
+    <ContentPage.Content>
+        <Grid>
+            <gradient:SfGradientView Style="{StaticResource SfGradientViewStyle}" />
+
+            <ScrollView HorizontalOptions="Center">
+                <ScrollView.VerticalOptions>
+                    <OnIdiom
+                        x:TypeArguments="LayoutOptions"
+                        Default="CenterAndExpand"
+                        Phone="FillAndExpand" />
+                </ScrollView.VerticalOptions>
+
+                <StackLayout
+                    Margin="{core:OnPlatformOrientationThickness PhonePortrait='20,32',
+                                                                 PhoneLandscape='150,32',
+                                                                 TabletPortrait='200,50',
+                                                                 TabletLandscape='300,50',
+                                                                 Desktop='30'}"
+                    Spacing="0"
+                    VerticalOptions="FillAndExpand"
+                    WidthRequest="{OnPlatform Default='-1',
+                                              UWP='350'}">
+                    <StackLayout
+                        HorizontalOptions="Center"
+                        Spacing="24"
+                        VerticalOptions="CenterAndExpand">
+
+                        <!--  Label to display the title of this page  -->
+                        <Label
+                            FontFamily="{StaticResource Montserrat-SemiBold}"
+                            FontSize="20"
+                            HorizontalOptions="Center"
+                            Style="{StaticResource LabelStyle}"
+                            Text="Sign Up" />
+
+                        <!--  Label to display the description of this page  -->
+                        <Label
+                            Margin="0,-16,0,8"
+                            FontFamily="{StaticResource Montserrat-Medium}"
+                            HorizontalTextAlignment="Center"
+                            Style="{StaticResource LabelStyle}"
+                            Text="Create an account to start doing more" />
+
+            <!--  Entry to get username from user  -->
+            <StackLayout Margin="0,-16,0,0">
+              <border:SfBorder
+                             BorderColor="{Binding Source={x:Reference FirstNameEntry},
+                             Path=IsFocused,
+                             Converter={StaticResource ColorConverter},
+                             ConverterParameter=0}"
+                             Style="{StaticResource SfBorderStyle}">
+                            <control:BorderlessEntry
+                                x:Name="FirstNameEntry"
+                                Placeholder="FirstName"
+                                Style="{StaticResource EntryStyle}"
+                                Text="{Binding FirstName}" />
+                        </border:SfBorder>
+              </StackLayout>
+            <StackLayout Margin="0,-16,0,0">
+              <border:SfBorder BorderColor="{Binding Source={x:Reference LastNameEntry},
+                               Path=IsFocused,
+                               Converter={StaticResource ColorConverter},
+                               ConverterParameter=0}"
+                             Style="{StaticResource SfBorderStyle}">
+              <control:BorderlessEntry x:Name="LastNameEntry"
+                                       Placeholder="LastName"
+                                       Style="{StaticResource EntryStyle}"
+                                       Text="{Binding LastName}" />
+            </border:SfBorder>
+              </StackLayout>
+                        
+            <!--  Entry to get email ID from user  -->
+            <!--<local:EmailEntry />-->
+            <StackLayout Margin="0,-16,0,0">
+              <border:SfBorder BorderColor="{Binding Path=IsFocused, 
+                Source={x:Reference EmailIdEntry}, 
+                Converter={x:StaticResource ErrorValidationColorConverter}, 
+                ConverterParameter={x:Reference EmailIdEntry}}"
+                               Style="{StaticResource SfBorderStyle}">
+                <Grid>
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                  </Grid.ColumnDefinitions>
+
+                  <control:BorderlessEntry x:Name="EmailIdEntry"
+                                           Placeholder="Email"
+                                           Keyboard="Email"
+                                           Style="{StaticResource EntryStyle}"
+                                           Text="{Binding Email}" />
+
+                  <Label x:Name="EmailValidationEntry"
+                    Margin="15,0"
+                         FontFamily="{StaticResource FontIcons}"
+                         FontSize="18"
+                         HorizontalOptions="EndAndExpand"
+                         HorizontalTextAlignment="End"
+                         IsVisible="{Binding Path=IsVisible, Source={x:Reference EmailValidationLabel}}"
+                         Text="&#xe707;"
+                         TextColor="{DynamicResource Red}"
+                         VerticalOptions="Center" />
+
+
+                </Grid>
+              </border:SfBorder>
+
+                  <Label x:Name="EmailValidationLabel"
+                         Margin="15,-5,0,0"
+                         FontSize="12"
+                         IsVisible="{Binding Path=IsFocused, 
+                         Source={x:Reference EmailIdEntry}, 
+                         Converter={StaticResource StringToBooleanConverter}, 
+                         ConverterParameter={x:Reference EmailIdEntry}}"
+                         Text="Please enter the valid e-mail"
+                         TextColor="{DynamicResource Red}"
+                         VerticalOptions="FillAndExpand" />
+
+                        </StackLayout >
+                        
+            <!--  Entry to get phone  from user  -->
+            <StackLayout Margin="0,-16,0,0">
+              <border:SfBorder BorderColor="{Binding Path=IsFocused, 
+                Source={x:Reference PhoneEntry}, 
+                Converter={x:StaticResource PhoneErrorValidationColorConverter}, 
+                ConverterParameter={x:Reference PhoneEntry}}"
+                               Style="{StaticResource SfBorderStyle}">
+                <Grid>
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                  </Grid.ColumnDefinitions>
+
+                  <control:BorderlessEntry x:Name="PhoneEntry"
+                                           Placeholder="Phone"
+                                           Keyboard="Telephone"
+                                           Style="{StaticResource EntryStyle}"
+                                           Text="{Binding Phone}" />
+
+                  <Label x:Name="PhoneValidationEntry" 
+                    Margin="15,0"
+                         FontFamily="{StaticResource FontIcons}"
+                         FontSize="18"
+                         HorizontalOptions="EndAndExpand"
+                         HorizontalTextAlignment="End"
+                         IsVisible="{Binding Path=IsVisible, Source={x:Reference PhoneValidationLabel}}"
+                         Text="&#xe707;"
+                         TextColor="{DynamicResource Red}"
+                         VerticalOptions="Center" />
+
+
+                </Grid>
+              </border:SfBorder>
+
+              <Label x:Name="PhoneValidationLabel"
+                     Margin="15,-5,0,0"
+                     FontSize="12"
+                     IsVisible="{Binding Path=IsFocused, 
+                     Source={x:Reference PhoneEntry}, 
+                     Converter={StaticResource PhoneStringToBooleanConverter}, 
+                     ConverterParameter={x:Reference PhoneEntry}}"
+                     Text="Please enter the valid Phone Number"
+                     TextColor="{DynamicResource Red}"
+                     VerticalOptions="FillAndExpand" />
+
+            </StackLayout>
+            <StackLayout Margin="0,-16,0,0">
+              <border:SfBorder BorderColor="{Binding Path=IsFocused, 
+                Source={x:Reference PasswordEntry}, 
+                Converter={x:StaticResource PasswordErrorValidationColorConverter}, 
+                ConverterParameter={x:Reference PasswordEntry}}"
+                               Style="{StaticResource SfBorderStyle}">
+                <Grid>
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                  </Grid.ColumnDefinitions>
+
+                  <control:BorderlessEntry x:Name="PasswordEntry"
+                                           Placeholder="Password"
+                                           Style="{StaticResource EntryStyle}"
+                                           IsPassword="True"
+                                           Text="{Binding UserPassword}" />
+
+
+                  <Label x:Name="PasswordValidationEntry" 
+                    Margin="15,0"
+                         FontFamily="{StaticResource FontIcons}"
+                         FontSize="18"
+                         HorizontalOptions="EndAndExpand"
+                         HorizontalTextAlignment="End"
+                         IsVisible="{Binding Path=IsVisible, 
+                         Source={x:Reference PasswordValidationLabel}}"
+                         Text="&#xe707;"
+                         TextColor="{DynamicResource Red}"
+                         VerticalOptions="Center" />
+
+
+                </Grid>
+              </border:SfBorder>
+
+              <Label x:Name="PasswordValidationLabel"
+                     Margin="15,-5,0,0"
+                     FontSize="12"
+                     IsVisible="{Binding Path=IsFocused, 
+                Source={x:Reference PasswordEntry}, 
+                Converter={StaticResource PasswordStringToBooleanConverter}, 
+                ConverterParameter={x:Reference PasswordEntry}}"
+                     Text="Please enter the valid Password"
+                     TextColor="{DynamicResource Red}"
+                     VerticalOptions="FillAndExpand" />
+
+            </StackLayout>
+
+            <StackLayout Margin="0,-16,0,0">
+              <border:SfBorder BorderColor="{Binding Path=IsFocused, 
+                Source={x:Reference ConfirmPasswordEntry}, 
+                Converter={x:StaticResource PasswordErrorValidationColorConverter}, 
+                ConverterParameter={x:Reference ConfirmPasswordEntry}}"
+                               Style="{StaticResource SfBorderStyle}">
+                <Grid>
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                  </Grid.ColumnDefinitions>
+
+                  <control:BorderlessEntry x:Name="ConfirmPasswordEntry"
+                                           Placeholder="ConfirmPassword"
+                                           Style="{StaticResource EntryStyle}"
+                                           IsPassword="True"
+                                           Text="{Binding ConfirmPassword}" />
+
+
+                  <Label x:Name="ConfirmValidationEntry" 
+                    Margin="15,0"
+                         FontFamily="{StaticResource FontIcons}"
+                         FontSize="18"
+                         HorizontalOptions="EndAndExpand"
+                         HorizontalTextAlignment="End"
+                         IsVisible="{Binding Path=IsVisible, 
+                         Source={x:Reference ConfirmValidationLabel}}"
+                         Text="&#xe707;"
+                         TextColor="{DynamicResource Red}"
+                         VerticalOptions="Center" />
+
+
+                </Grid>
+              </border:SfBorder>
+
+              <Label x:Name="ConfirmValidationLabel"
+                     Margin="15,-5,0,0"
+                     FontSize="12"
+                     IsVisible="{Binding Path=IsFocused, 
+                Source={x:Reference ConfirmPasswordEntry}, 
+                Converter={StaticResource PasswordStringToBooleanConverter}, 
+                ConverterParameter={x:Reference ConfirmPasswordEntry}}"
+                     Text="Please enter the valid Password"
+                     TextColor="{DynamicResource Red}"
+                     VerticalOptions="FillAndExpand" />
+
+            </StackLayout>
+            
+            <!--  Sign-up button Command="{Binding SignUpCommand}" -->
+                        <buttons:SfButton Margin="0,-10,0,0"
+                              Clicked="CheckFields"
+                            CornerRadius="20"
+                            FontFamily="{StaticResource Montserrat-SemiBold}"
+                            Style="{StaticResource SfButtonStyle}"
+                            Text="REGISTER" />
+                    </StackLayout>
+
+                    <StackLayout
+                        HorizontalOptions="Center"
+                        Orientation="Horizontal"
+                        Spacing="1"
+                        VerticalOptions="End">
+
+                       
+
+                        <Label 
+                   FontFamily="{StaticResource Montserrat-Medium}"
+                            HorizontalOptions="CenterAndExpand"
+                            HorizontalTextAlignment="Center"
+                            Style="{StaticResource LabelStyle}"
+                          Margin="0,12,0,10"
+                            Text="Already have an account?"
+                            VerticalTextAlignment="Center" />
+
+                        <buttons:SfButton Margin="0,12,0,10"
+                              Command="{Binding LoginCommand}"
+                            CornerRadius="4"
+                            Style="{StaticResource SfFlatButtonStyle}"
+                            Text="Log In" />
+
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
